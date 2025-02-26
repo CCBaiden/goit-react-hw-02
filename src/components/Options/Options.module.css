@@ -1,7 +1,7 @@
 .options {
   display: flex;
   gap: 5px;
-  margin-bottom: 2rem;
+  margin-bottom: 32px;
 }
 
 .options button {
