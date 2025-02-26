@@ -1,0 +1,10 @@
+.feedback {
+  background-color: #fff;
+}
+
+.feedback p {
+  font-size: 25px;
+  margin: 7px;
+  text-align: left;
+
+}

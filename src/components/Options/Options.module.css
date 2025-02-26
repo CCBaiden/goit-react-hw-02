@@ -1,0 +1,15 @@
+.options {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 2rem;
+}
+
+.options button {
+  padding: 5px 9px;
+  font-size: 25px;
+  cursor: pointer;
+  background-color: rgb(240, 240, 240) ;
+  color: black;
+  border: 2px solid rgb(130, 130, 130);
+  border-radius: 5px;
+}

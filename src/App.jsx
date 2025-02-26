@@ -1,7 +1,9 @@
 import { useState, useEffect } from "react";
+import "./App.css"; 
 import Options from "./components/Options/Options";
 import Feedback from "./components/Feedback/Feedback";
 import Notification from "./components/Notification/Notification";
+
 
 export default function App() {
   const [feedback, setFeedback] = useState(() => {
@@ -47,7 +49,7 @@ export default function App() {
           positivePercentage={positivePercentage}
         />
       ) : (
-        <Notification message="No feedback given yet." />
+        <Notification message="No feedback yet." />
       )}
     </div>
   );
